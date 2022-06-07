@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import AddCount from './components/Count/AddCount';
+import HooksExample from './components/Count/HooksExample/index';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <AddCount />
+      <HooksExample />
     </div>
   );
 }
